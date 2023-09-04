@@ -1,38 +1,319 @@
-.App {
-  text-align: center;
+@font-face {
+	font-family: CentraBold;
+	src: url('./assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: CentraBook;
+  src: url('./assets/fonts/CentraNo2-Book.ttf');
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: CentraMedium;
+  src: url('./assets/fonts/CentraNo2-Medium.ttf');
+  font-weight: 500;
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #D0E3FF !important;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+nav.navbar {
+  background: #7096D1 !important;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: CentraBold !important;
+  opacity: 0.90;
+  border-radius: 1em;
+}
+
+.active-navbar-link, .navbar-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+  background-color: #081F5c;
+}
+
+.link{
+  color: #F7F2EB !important;
+  text-decoration: none;
+}
+.navbar-text a img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-text a {
+  display: flex;
+  align-items: center;
+  color: #F7F2EB !important;
+  font-family: CentraBold !important;
+  text-decoration: none;
+  opacity: 0.80;
+  transition: 0.3s;
+}
+
+.navbar-text a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+#homePage{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding-top: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+  #homePage{
+    padding-top: 60vh;
+  }
+}
+  
+
+
+/* em is relative to the font-size of its direct or nearest parent
+rem is relative to the HTML (root) font-size 
+em can lead to compounding effect */
+.header{
+  color: #081F5c;
+  font-family: CentraBold;
+  margin-bottom: 5%;
+  font-size: 2.5em;
+}
+
+.description{
+  color: #081F5c;
+  font-family: CentraBook;
+  line-height: 1.5em;
+  width: 90%;
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+}
+
+.buttons{
+  color: #334EAC;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #081F5c;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  font-family: CentraBold;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.buttons:hover {
+  background-color: #F7F2EB;
+}
+
+.icon{
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0.5em;
+}
+/*Experience Section*/
+
+#experience{
+  margin-top: 25vh;
+}
+
+@media screen and (max-width: 768px) {
+  #experience{
+    margin-top: 50vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  
+.header2{
+  color: #081F5c;
+  font-family: CentraBold;
+  font-size: 2.5em;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.experience-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #EDF1f6;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #7096D1;
+  border-radius: 1em; 
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.header3{
+  color: #334EAC;
+  font-family: CentraMedium;
+}
+
+.experience-details{
+  color: #7096D1;
+  font-family: CentraMedium;
+  font-size: 1em;
+}
+
+.experience-description{
+  color: #334EAC;
+  font-family: CentraBook;
+  line-height: 1.5em;
+}
+
+.skill{
+  color: #334EAC;
+  font-family: CentraBook;
+  font-size: 1em;
+  padding: 0.1em 0.25em;
+  border: #081F5c;
+  border-style: solid;
+  border-radius: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+
+}
+
+.skillsCard{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+/*Projects Home Section*/
+#projects{
+  margin-top: 30vh;
+  margin-bottom: 10vh;
+}
+
+
+.viewAll{
+  color: #334EAC;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #081F5c;
+  padding: 1em 3em;
+  border-radius: 0.5em;
+  font-family: CentraBold;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.viewAll:hover{
+  background-color: #F7F2EB;
+}
+
+.projectCard{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  background-color: #EDF1f6;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #7096D1;
+  border-radius: 1em; 
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+.projectCard:hover{
+  background-color: #F7F2EB;
+  box-shadow: #7096D1 0em 0em 1em 0em;
+}
+
+.projectIcon{
+  border-radius: 1em;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.project-description{
+  color: #081F5c;
+  font-family: CentraBook;
+}
+
+.projectHeader{
+  color: #081F5c;
+  font-family: CentraBold;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.projectLink{
+  text-decoration: none;
+}
+
+.projectHomeContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+/* All projects pages */
+#projectAll{
+  padding-top: 10vh;
+  display: flex;
+
+}
+
+.project-row{
+  margin-bottom: 2em;
+}
+
+
+.allProjectHeader{
+  color: #081F5c;
+  font-family: CentraBold;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/*Resume section*/
+#resume{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pdfViewer{
+  width: 90%;
+  height: 100%;
+  padding-top: 10vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
