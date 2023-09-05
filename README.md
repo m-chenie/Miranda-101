@@ -1,3 +1,9 @@
+# Miranda-101
+Welcome to my personal website!
+Click here to check it out: (https://m-chenie.github.io/Miranda-101)
+
+I personally designed and developed the website which also serves as a software portfolio. The website showcases my skills, experience and personal projects.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
