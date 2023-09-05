@@ -44,7 +44,7 @@ const NavBar = () => {
                 without using arrow function it stuff gets re-renders on infinite loop because when the componenet renders it is will call the function and 
                 since when the state of the object changes it causes the object to re-render causing an infinite loop*/}
                 <Nav.Link className={activePage === 'Home' ? 'active-navbar-link' : 'navbar-link'} onClick={() => setActivePage('Home')}>
-                  <Link to = "/" className='link'>
+                  <Link to = "/Miranda-101" className='link'>
                     Home
                   </Link>
                 </Nav.Link>
