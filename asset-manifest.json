@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Miranda-101/static/css/main.fbd0e0f6.css",
+    "main.js": "/Miranda-101/static/js/main.b60b3d15.js",
+    "static/js/787.7efd31bd.chunk.js": "/Miranda-101/static/js/787.7efd31bd.chunk.js",
+    "static/media/CodingAnimation.gif": "/Miranda-101/static/media/CodingAnimation.c0a81830b3a8ff440334.gif",
+    "static/media/Resume_long.pdf": "/Miranda-101/static/media/Resume_long.e503926d3e0db64e350d.pdf",
+    "static/media/maze.png": "/Miranda-101/static/media/maze.db1189f17ad151ad4059.png",
+    "static/media/nutricartdemo.png": "/Miranda-101/static/media/nutricartdemo.b7a2311741b9543c1d64.png",
+    "static/media/CentraNo2-Bold.ttf": "/Miranda-101/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/Miranda-101/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/Miranda-101/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/dinorun2.png": "/Miranda-101/static/media/dinorun2.42991de3895020add0e4.png",
+    "static/media/mask.svg": "/Miranda-101/static/media/mask.5a142efc7ee7472c4d6e754a2cc4f52f.svg",
+    "static/media/filetype-pdf.svg": "/Miranda-101/static/media/filetype-pdf.4231affffd55126af3e0e7fbd7d875b0.svg",
+    "static/media/journal-code.svg": "/Miranda-101/static/media/journal-code.95308ad9eb360660677cb9753509ef3d.svg",
+    "static/media/github.svg": "/Miranda-101/static/media/github.8857055a4428b42c58bb81f6dae3b5f8.svg",
+    "static/media/linkedin.svg": "/Miranda-101/static/media/linkedin.468d33a882fb34381fe38686d7f74966.svg",
+    "index.html": "/Miranda-101/index.html",
+    "static/media/stack.svg": "/Miranda-101/static/media/stack.17bfd087a230b5d2601e47946d282754.svg",
+    "static/media/doc-img.svg": "/Miranda-101/static/media/doc-img.968ed3a407c497377ce74e2e1b71d7d9.svg",
+    "main.fbd0e0f6.css.map": "/Miranda-101/static/css/main.fbd0e0f6.css.map",
+    "main.b60b3d15.js.map": "/Miranda-101/static/js/main.b60b3d15.js.map",
+    "787.7efd31bd.chunk.js.map": "/Miranda-101/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbd0e0f6.css",
+    "static/js/main.b60b3d15.js"
+  ]
+}
