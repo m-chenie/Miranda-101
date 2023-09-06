@@ -11,12 +11,11 @@ const ProjectAll = () => {
     return (
         <section id="projectAll">
             <Container className="projectHomeContainer">
-                <Row className="container-fluid project-row">
-                    <h1 className="allProjectHeader">{'My favourite projects'} </h1>
-                    <h3 className="header3 text-center mb-3">{'(psst.. there are more on my Github)'}</h3>
+                <h1 className="allProjectHeader">{'My favourite projects'} </h1>
+                <h3 className="header3 text-center mb-4">{'(psst.. there are more on my Github)'}</h3>
 
-                    {/* Flex Container for the remaining three columns */}
-                        <Col xs={12} md={4} className="project-col">
+                <Row className="projectRow">
+                        <Col xs={12} md={4} className="">
                             <div className="projectCard">
                                 <a href="https://github.com/m-chenie/NutriCart2.0" className="projectLink" target="_blank" rel="noopener noreferrer">
                                     <img src={nutricart} alt="NutriCart" className="projectIcon"/>
@@ -35,7 +34,7 @@ const ProjectAll = () => {
                             </div>
                         </Col>
 
-                        <Col xs={12} md={4} className="project-col">
+                        <Col xs={12} md={4} className="projectCol">
                             <div className="projectCard">
                                 <a href="https://github.com/m-chenie/T-RexAIGame" className="projectLink" target="_blank" rel="noopener noreferrer">
                                     <img src={dinorun} alt="T-Rex AI Game" className="projectIcon"/>
@@ -55,7 +54,7 @@ const ProjectAll = () => {
                             </div>
                         </Col>
 
-                        <Col xs={12} md={4} className="">
+                        <Col xs={12} md={4} className="projectCol">
                             <div className="projectCard">
                                 <a href="https://github.com/m-chenie/MazePathFinding" className="projectLink" target="_blank" rel="noopener noreferrer">
                                     <img src={maze} alt="A* path finding" className="projectIcon"/>
@@ -73,7 +72,7 @@ const ProjectAll = () => {
                         </Col>
                 </Row>
 
-                <Row className="container-fluid project-row">
+                <Row className="projectRow">
 
                         <Col xs={12} md={4} className="">
                             <div className="projectCard">
@@ -92,7 +91,7 @@ const ProjectAll = () => {
                             </div>
                         </Col>
 
-                        <Col xs={12} md={4} className="">
+                        <Col xs={12} md={4} className="projectCol">
                             <div className="projectCard">
                                 <a href="https://github.com/m-chenie/MM-BookNook" className="projectLink" target="_blank" rel="noopener noreferrer">
                                     <img src={bookImg} alt="BookNook" className="projectIcon"/>
@@ -113,7 +112,7 @@ const ProjectAll = () => {
                             </div>
                         </Col>
 
-                        <Col xs={12} md={4} className="">
+                        <Col xs={12} md={4} className="projectCol">
                             <div className="projectCard">
                                 <a href="https://github.com/m-chenie/Mask_Detection_CNN" className="projectLink" target="_blank" rel="noopener noreferrer">
                                     <img src={mask} alt="maskDetection" className="projectIcon"/>
@@ -128,7 +127,6 @@ const ProjectAll = () => {
                                     <span className='skill'>Matplotlib</span>
                                     <span className='skill'>scikit-learn</span>
                                     </div>
-
                                 </a>
                             </div>
                         </Col>

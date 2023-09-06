@@ -10,9 +10,9 @@ const ProjectHome = () => {
     return (
         <section id="projects" className="d-flex">
             <Container className="projectHomeContainer">
-                <h1 className="projectHeader">{'Personal projects'} </h1>
+                <h1 className="projectHeader mb-4">{'Personal projects'} </h1>
 
-                <Row className="m-5">
+                <Row className="projectRow">
 
                     <Col xs={12} md={6} className="gx-5">
                         <div className="projectCard">
@@ -27,7 +27,7 @@ const ProjectHome = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} md={6} className="gx-5">
+                    <Col xs={12} md={6} className="projectCol gx-5">
                         <div className="projectCard">
                             <a href="https://github.com/m-chenie/T-RexAIGame" className="projectLink" target="_blank" rel="noopener noreferrer">
                                 <img src={dinorun} alt="T-Rex AI Game" className="projectIcon"/>
@@ -42,7 +42,7 @@ const ProjectHome = () => {
 
                 </Row>
                 
-                <Row className="m-5">
+                <Row className="projectRow">
                     <Col xs={12} md={6} className="gx-5">
                         <div className="projectCard">
                             <a href="https://github.com/m-chenie/MazePathFinding" className="projectLink" target="_blank" rel="noopener noreferrer">
@@ -54,7 +54,7 @@ const ProjectHome = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} md={6} className="d-flex align-items-center justify-content-center">
+                    <Col xs={12} md={6} className="viewAllCol gx-5">
                             <Link to="/projects" className="text-decoration-none">
                                 <button className="viewAll">View More
                                 <img src={stack} className="icon" />

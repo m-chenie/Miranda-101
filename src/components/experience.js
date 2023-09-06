@@ -7,11 +7,12 @@ const Experience = () => {
 
     return (
         <section id="experience" className="d-flex">
-            <Container>
-                <Row className="container-fluid">
+            <Container className='projectHomeContainer'>
+            <h1 className='projectHeader'>Recent experience</h1>
+            
+                <Row className="container-fluid mt-3">
                     <Col xs={12} md={8}>
-                        <span className='header2'>Recent experience</span>
-                            <div className="experience-card">
+                           <div className="experience-card">
                                 <h3 className='header3'>Database Programmer</h3>
                                 <h4 className='experience-details'>Oak Ridges Heart Clinic (May 2027 - Sept 2027)</h4>
                                 <ul className='experience-description'>
@@ -29,7 +30,7 @@ const Experience = () => {
                                 </div>
                             </div>
                     </Col>
-                    <Col xs={12} md={4} className='d-flex align-items-center justify-content-center'>
+                    <Col xs={12} md={4} className='buttonCol'>
                         <Link to="/resume" className="text-decoration-none">
                             <button className='buttons'>View Resume
                             <img src={doc} className="icon" />

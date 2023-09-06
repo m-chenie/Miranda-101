@@ -48,8 +48,8 @@ const HomePage = () => {
                     <p className="description">{'I am a student at the University of Waterloo studying Biomedical Engineering. I have a passion for software development and how it can improve health care.'}</p>
                     <button className="buttons" onClick={() => window.open('mailto:m48chen@uwaterloo.ca', '_blank')}>Contact me!</button>
                 </Col>
-                <Col xs={12} md={6} xxl={5} className="d-flex align-items-center justify-content-center">
-                    <img src={coding} alt="Miranda" />
+                <Col xs={12} md={6} xxl={5} className="d-flex justify-content-center align-items-center"> {/*d-flex justify-content-center align-items-center*/}
+                    <img src={coding} alt="Miranda" className="gif-responsive"/>
                 </Col>
             </Row>
         </Container>
