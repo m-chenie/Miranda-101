@@ -16,7 +16,7 @@ const Experience = () => {
                                 <h3 className='header3'>Database Programmer</h3>
                                 <h4 className='experience-details'>Oak Ridges Heart Clinic (May 2027 - Sept 2027)</h4>
                                 <ul className='experience-description'>
-                                    <li>Developed program using that diagnoses ECG rhythm abnormalities (PACs and PVCs) with an accuracy of 80%.</li>
+                                    <li>Developed program that diagnoses ECG rhythm abnormalities (PACs and PVCs) with an accuracy of 80%.</li>
                                     <li>Performed web scraping to automate the retrieval, upload, and classification of patients’ medications, documents and lab results into the clinic database.</li>
                                     <li>Implemented computer vision to convert non-searchable PDFs into searchable PDFs, reducing manual work by 5+ hours per week.</li>
                                 </ul>
