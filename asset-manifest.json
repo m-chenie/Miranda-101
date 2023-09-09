@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Miranda-101/static/css/main.a68a3287.css",
-    "main.js": "/Miranda-101/static/js/main.d5afdb6f.js",
+    "main.js": "/Miranda-101/static/js/main.ee0eda77.js",
     "static/js/787.7efd31bd.chunk.js": "/Miranda-101/static/js/787.7efd31bd.chunk.js",
     "static/media/CodingAnimation.gif": "/Miranda-101/static/media/CodingAnimation.c0a81830b3a8ff440334.gif",
     "static/media/Resume_long.pdf": "/Miranda-101/static/media/Resume_long.6e583ac0c2f8057c5986.pdf",
@@ -20,11 +20,11 @@
     "static/media/stack.svg": "/Miranda-101/static/media/stack.17bfd087a230b5d2601e47946d282754.svg",
     "static/media/doc-img.svg": "/Miranda-101/static/media/doc-img.968ed3a407c497377ce74e2e1b71d7d9.svg",
     "main.a68a3287.css.map": "/Miranda-101/static/css/main.a68a3287.css.map",
-    "main.d5afdb6f.js.map": "/Miranda-101/static/js/main.d5afdb6f.js.map",
+    "main.ee0eda77.js.map": "/Miranda-101/static/js/main.ee0eda77.js.map",
     "787.7efd31bd.chunk.js.map": "/Miranda-101/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a68a3287.css",
-    "static/js/main.d5afdb6f.js"
+    "static/js/main.ee0eda77.js"
   ]
 }
