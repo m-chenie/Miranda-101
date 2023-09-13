@@ -14,7 +14,7 @@ const Experience = () => {
                     <Col xs={12} md={8}>
                            <div className="experience-card">
                                 <h3 className='header3'>Database Programmer</h3>
-                                <h4 className='experience-details'>Oak Ridges Heart Clinic (May 2023 - Sept 2023)</h4>
+                                <h4 className='experience-details'>Oak Ridges Heart Clinic (May 2023 - Aug 2023)</h4>
                                 <ul className='experience-description'>
                                     <li>Developed program that diagnoses ECG rhythm abnormalities (PACs and PVCs) with an accuracy of 80%.</li>
                                     <li>Performed web scraping to automate the retrieval, upload, and classification of patients’ medications, documents and lab results into the clinic database.</li>
