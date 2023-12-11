@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ResumeRef from '../Resume_long.pdf';
+import ResumeRef from '../resume_ml.pdf';
 
 const Resume = () => {
   const pdfFile = 'Resume_long.pdf';
